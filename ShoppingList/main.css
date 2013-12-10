@@ -1,0 +1,82 @@
+/* CSS Document */
+
+ol, li
+{
+    list-style: none;
+}
+
+
+body {
+	font-family: helvetica;
+	color: #009999;
+	background-color: #FFFFFF;
+	text-align:center;
+}
+
+
+h1 {
+
+	font-size: 60px;
+	padding: 20px;
+	top-margin: 10px;
+	text-align: center;
+
+}
+
+
+p {
+
+	font-size: 30px;
+	padding: 15px;
+	margin: 10px;
+
+}
+
+#list {
+	float: right;
+	width: 250px;
+	height: 370px;
+	margin-top: 10px;
+	margin-right: 200px;
+	border: .5px solid #666;
+	border-radius: 2px;
+	color: #000000;
+	background-color: #FFFF99;
+	-webkit-box-shadow: 0px 5px 10px #333333;
+	border-top-right-radius: 0px 0px;
+	font-family:"Comic Sans MS";
+	text-align: left;
+	
+}
+
+
+#submission, img {
+	
+	margin-left: 50px;
+	padding-left: 20px;
+	position: relative;
+
+}
+
+#submit, #items, button {
+	
+	
+	border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+	margin-top: 10px;
+	
+}
+
+#submit, button {
+	color: white;
+	background-color: #009999;  
+	border: 0;      
+
+        }
+
+#items {
+	
+	border: 1px solid #CCCCCC;
+	
+	}
