@@ -1,0 +1,76 @@
+body {
+	background-color: #dad6d6;
+    background-image: -wbkit-gradient(linear, 0% 0%, 0% 100%, from(#dad6d6), to(#4f4f4f));
+    background-image: -webkit-linear-gradient(top, #dad6d6, #4f4f4f);
+    background-image: -moz-linear-gradient(top, #dad6d6, #4f4f4f);
+    background-image: -ms-linear-gradient(top, #dad6d6, #4f4f4f);
+    background-image: -o-linear-gradient(top, #dad6d6, #4f4f4f);
+    background-image: linear-gradient(top, #dad6d6, #4f4f4f);
+		}
+
+a {
+text-decoration:none;
+
+}
+    
+	h1 {
+	font-size: 60px;
+	font-family: "Times New Roman", serif;
+	margin: 50px;
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	
+	
+		}
+
+
+table {
+	
+	position: relative;
+	margin-left: 400px;
+	margin-top: 70px;
+	
+	
+	}
+	
+
+.button {
+	border: 1px;
+	border-radius: 999px;
+	background-color: #ACD6DD;
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+	padding: 20px 10px 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #aaa;
+    
+	
+	}
+
+h3 {
+    
+       
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+    transition-property: color 0.3s ease, top 0.3s ease;
+    -webkit-transition-property: color 0.3s ease, top 0.3s ease;
+    -moz-transition-property: color 0.3s ease, top 0.3s ease;
+    -o-transition-property: color 0.3s ease, top 0.3s ease;
+
+}
+
+
+.button h3:hover {
+
+    color: #4f4f4f;
+    font-size: 25px;
+    top: 15px;
+
+}
+
+
+
+	
