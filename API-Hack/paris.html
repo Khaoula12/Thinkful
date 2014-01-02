@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Paris</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js"></script>
+    
+  
+    
+</head>
+
+<body>
+
+<h1>Paris in Photos</h1>
+
+<center><div class="instagram"></div></center>
+
+
+<script>
+
+$(function() {
+
+ $.ajax({
+        type: "GET",
+        dataType: "jsonp",
+        cache: false,
+        url: "https://api.instagram.com/v1/users/1450621/media/recent?access_token=310943734.55d71f6.ee5d3b12ed24486ea5e47752b1717a1a",
+        success: function(data) {
+
+
+            for (var i = 0; i < 21; i++) {
+
+        $(".instagram").append("<img class='image' src='" + data.data[i].images.low_resolution.url +"' />");   
+
+
+        }
+       }
+
+    });
+});
+
+
+</script>
+
+
+<div class="nav-bottom"><p class="link">More Photos at <a href="http://instagram.com/vutheara" target="new">@vutheara</a></p></div>
+
+
+</body>
+</html>
